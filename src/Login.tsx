@@ -33,10 +33,7 @@ export default function SignInSide() {
     event.preventDefault();
 
 
-    // setData({
-    //   username: data.get("username"),
-    //   password: data.get("password"),
-    // });
+
 
     signInWithEmailAndPassword(auth, Data.email, Data.password)
     .then(() => {
