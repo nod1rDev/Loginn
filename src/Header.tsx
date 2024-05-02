@@ -22,7 +22,7 @@ export default function Header() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography>
-          <Button color="inherit" onClick={() => navigate("/login")}>
+          <Button color="inherit" onClick={() => navigate("/signUp")}>
             Login
           </Button>
         </Toolbar>

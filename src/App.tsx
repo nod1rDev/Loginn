@@ -21,7 +21,6 @@ const router = createBrowserRouter([
   },
   {
     path: "/product",
-
     element: (
       <Prodected>
         <Products />
@@ -33,7 +32,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <RouterProvider router={router} ></RouterProvider>
     </>
   );
 }
